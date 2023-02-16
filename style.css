@@ -1,0 +1,26 @@
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: #f1f1f100;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+    background-color: transparent;
+}
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background-color: #f9f9f961;
+}
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    background-color: transparent;
+}
+table.dataTable tbody tr {
+    background-color: transparent;
+}
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1 {
+    background-color: transparent;
+}
+div#table_id_wrapper label, div#table_id_info {color: #fff;margin: 5px auto;}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 5px 15px;
+}
+.acf-field-63d10e2ffb1cd a {
+    font-size: 16px;
+    text-transform: capitalize;
+}
